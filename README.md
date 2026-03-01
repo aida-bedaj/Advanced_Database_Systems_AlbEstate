@@ -113,9 +113,3 @@ Endpoint:
 This calls the SQL function `bt_client_as_of(...)` which demonstrates:
 - valid-time filtering (`valid_date between valid_from and valid_to`)
 - transaction-time filtering (`tx_time between sys_start and sys_end`)
-
-## Notes for Master's-level presentation
-If your professor asks “what makes it bitemporal?”:
-- valid-time answers: “What was true in the real world?”
-- transaction-time answers: “What did the system know at that time?”
-This project stores valid-time in base tables and transaction-time in history tables via triggers.

@@ -8,3 +8,4 @@
 \i sql/06_triggers.sql
 \i sql/07_views.sql
 \i sql/08_seed_minimal.sql
+\i sql/09_fill_seed.sql
