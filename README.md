@@ -1,4 +1,4 @@
-# AlbEstate (Bitemporal) — Python + PostgreSQL (VS Code friendly)
+# AlbEstate (Bitemporal) — Python + PostgreSQL
 
 This is a bitemporal database project implemented with:
 - **PostgreSQL** for storage (Valid Time + Transaction Time via history tables)
